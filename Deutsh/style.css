@@ -1,0 +1,168 @@
+body {
+  background-image: url(l.jpg);
+  background-position: top left;
+  background-repeat: repeat;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  background-image: url(dl.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 3em;
+  margin: 0;
+
+  display: inline-block;
+}
+
+h1 a {
+  text-decoration: none;
+}
+.search-field {
+  float: right;
+  background-image: url("search.png");
+  background-size: 1.6em;
+  background-repeat: no-repeat;
+  background-position: right;
+  margin: 2em;
+}
+header {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  top: 0;
+}
+
+#mainheader ul {
+  color: black;
+  margin: 0;
+}
+
+#mainheader li {
+     padding: 35px;
+    color: #3333ff;
+  font-size: 20px;
+  background-color: #1a53ff;
+  display: inline-block;
+}
+
+#content {
+  background-color: #d62d20;
+  color: white;
+  padding: 30px;
+  margin-top: 100px;
+}
+
+h2 {
+  color: #0000ff;
+}
+#mainheader ul {
+  background-color: #f79c9c;
+  list-style-type: none;
+  padding: 0;
+}
+
+#mainheader li a {
+  padding: 10px 10px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+#mainheader li a:hover {
+  background-color: #000080;
+}
+p {
+  font-style: italic;
+  font-size: 2em;
+}
+
+#content img {
+  float: right;
+  margin-left: 2em;
+}
+#content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {
+  padding-bottom: 10px;
+  display: inline-block;
+  margin-left: 1em;
+}
+ol li {
+  color: black;
+  font-size: 2em;
+  font-style: italic;
+}
+
+.niveaua#content {
+  background-image: url(img/buch13.jpg);
+}
+div {
+  background-color: #d62d20;
+  color: white;
+  padding: 30px;
+}
+p {
+  color: #0d0303;
+}
+#niveaua h1,
+#niveaua div,
+#niveaua li a,
+#niveaua ul,
+#niveaua nav {
+  background-color: inherit;
+}
+#niveaub1 h1,
+#niveaub1 div,
+#niveaub1 li a,
+#niveaub1 ul {
+  background-color: inherit;
+}
+#niveaub2 h1,
+#niveaub2 div,
+#niveaub2 li a,
+#niveaub2 ul {
+  background-color: inherit;
+}
+#niveauc h1,
+#niveauc div,
+#niveauc li a,
+#niveauc ul {
+  background-color: inherit;
+}
+#index h1,
+#index div,
+#index li a,
+#index ul {
+  background-color: inherit;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  header {
+    position: inherit;
+  }
+
+  #mainheader li {
+    display: block;
+  }
+
+  nav {
+    display: block;
+  }
+  h1 {
+    background-color: red;
+    font-size: 13px;
+    display: block;
+  }
+
+  .search-field {
+    float: none;
+  }
+}
